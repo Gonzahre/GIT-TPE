@@ -1,7 +1,7 @@
 let operando1;
 let operacion;
 
-document.querySelector("#cero").addEventListener('click',()=>entroNumero(3))
+document.querySelector("#cero").addEventListener('click',()=>entroNumero(0))
 document.querySelector("#uno").addEventListener('click',()=>entroNumero(1))
 document.querySelector("#dos").addEventListener('click',()=>entroNumero(2))
 document.querySelector("#tres").addEventListener('click',()=>entroNumero(3))

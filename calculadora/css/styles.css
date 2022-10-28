@@ -1,10 +1,26 @@
 /* Archivo css */
 
+header{
+  display: flex;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
+.titulo{
+  display: flex;
+  margin: 10px;
+  color: rgb(203, 118, 0);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
 .calculadora{
     display:block;
     margin:0 auto;
     padding:20px;
-    background-color:#2980b9;
+    background-color:rgb(203, 118, 0);
     width:300px;
     height:500px;
     border-radius: 25px;
